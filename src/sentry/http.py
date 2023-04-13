@@ -66,6 +66,7 @@ def safe_urlopen(
     verify_ssl=True,
     user_agent=None,
     stream=False,
+    foo=[],
 ):
     """
     A slightly safer version of ``urlib2.urlopen`` which prevents redirection
